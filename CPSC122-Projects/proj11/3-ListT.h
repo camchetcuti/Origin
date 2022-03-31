@@ -1,8 +1,8 @@
 /*
-Name: Paul De Palma
+Name: Cameron Chetcuti
 Class: CPSC 122, Section 1
-Date Submitted: March, 2022
-Assignment: N/A 
+Date Submitted: March 31, 2022
+Assignment: Project 11
 Description: Program illustrates a linked list both head and tail pointers 
 */
 
@@ -116,7 +116,7 @@ class ListT
          node pointed to by the tail 
    */
    node* PtrTo();
-   int length;   //length of the list
+   int length = 0;   //length of the list
    node* head;   //points to the first node on the list 
    node* tail;   //points to the last node on the list 
 };
